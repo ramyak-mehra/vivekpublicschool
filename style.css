@@ -1,0 +1,30 @@
+.section {
+  background-color: #f7f7f9;
+  padding: 5%;
+  margin-bottom: 1.5em;
+}
+.title {
+  font-size: 1.5em;
+  margin-bottom: 1.5rem;
+}
+.content {
+  margin-bottom: 1.5rem;
+}
+.activity {
+  background-color: black;
+  height: 100px;
+  padding: 1.5em;
+}
+.activity2 {
+  padding-top: 8%;
+}
+.activity2-title {
+  font-size: 1.2em;
+}
+.activity2-upper {
+  font-size: 1em;
+}
+
+.activity2-content {
+  font-size: 1.1em;
+}
