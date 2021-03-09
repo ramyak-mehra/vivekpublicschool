@@ -3,6 +3,10 @@
   padding: 5%;
   margin-bottom: 1.5em;
 }
+.activites2-section {
+  padding: 0 !important;
+}
+
 .title {
   font-size: 1.5em;
   margin-bottom: 1.5rem;
@@ -15,8 +19,10 @@
   height: 100px;
   padding: 1.5em;
 }
-.activity2 {
-  padding-top: 8%;
+.custom-col {
+  flex-direction: column;
+  display: flex;
+  justify-content: space-evenly;
 }
 .activity2-title {
   font-size: 1.2em;
@@ -27,4 +33,15 @@
 
 .activity2-content {
   font-size: 1.1em;
+}
+.activites2-cart-content {
+  font-size: 1.5em;
+}
+
+.activites2-cart-title {
+  font-size: 1.1em;
+  color: white;
+}
+.explore-btn {
+  font-size: 10em;
 }
