@@ -194,6 +194,7 @@ h6 {
   display: flex;
   list-style: none;
   align-items: center;
+  justify-content: center;
 }
 
 .navbar li {
@@ -530,7 +531,7 @@ section {
 }
 
 .breadcrumbs {
-  margin-top: 73px;
+  margin-top: 120px;
   text-align: center;
   background: #5fcf80;
   padding: 30px 0;
@@ -539,11 +540,17 @@ section {
 
 @media (max-width: 992px) {
   .breadcrumbs {
-    margin-top: 63px;
+    margin-top: 130px;
   }
 }
-
+@media (max-width: 768px) {
+  .breadcrumbs {
+    margin-top: 130px;
+  }
+}
 .breadcrumbs h2 {
+  margin: auto;
+
   font-size: 32px;
   font-weight: 500;
 }
