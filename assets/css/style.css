@@ -1611,3 +1611,11 @@ section {
 #tc-title {
   color: #8c0000;
 }
+#card-container {
+  width: 50%;
+}
+@media screen and (max-width: 768px) {
+  #card-container {
+    width: 100%;
+  }
+}
