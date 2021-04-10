@@ -133,7 +133,7 @@ h6 {
 }
 
 #header .logo {
-  font-size: 4em;
+  font-size: 3em;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -142,7 +142,12 @@ h6 {
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
 }
-
+#header .logo p{
+  font-size: 0.4em;
+  margin: 0;
+  color:  #bd2000;
+  font-family: "Poppins", sans-serif;
+}
 #header .logo a {
   color: #bd2000;
 }
@@ -539,7 +544,7 @@ section {
 }
 
 .breadcrumbs {
-  margin-top: 200px;
+  margin-top: 220px;
   text-align: center;
   background: #bd2000;
   padding: 30px 0;
@@ -548,12 +553,12 @@ section {
 
 @media (max-width: 992px) {
   .breadcrumbs {
-    margin-top: 130px;
+    margin-top: 170px;
   }
 }
 @media (max-width: 768px) {
   .breadcrumbs {
-    margin-top: 130px;
+    margin-top: 170px;
   }
 }
 .breadcrumbs h2 {
@@ -1619,3 +1624,12 @@ section {
     width: 100%;
   }
 }
+
+.lab-name{
+ 
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #8c0000;
+  }
