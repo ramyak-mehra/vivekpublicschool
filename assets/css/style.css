@@ -414,6 +414,39 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+.home-carousel {
+  background: #111;
+  margin-top: 150px;
+}
+
+.home-carousel .carousel-item {
+  height: min(72vh, 620px);
+  min-height: 360px;
+}
+
+.home-carousel .carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.home-carousel .carousel-item img.school-slide-img {
+  object-fit: contain;
+  object-position: center;
+  background: #111;
+}
+
+@media (max-width: 768px) {
+  .home-carousel {
+    margin-top: 0;
+  }
+
+  .home-carousel .carousel-item {
+    height: 42vh;
+    min-height: 240px;
+  }
+}
+
 #hero {
   width: 100%;
   height: 80vh;
